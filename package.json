@@ -1,0 +1,39 @@
+{
+  "name": "vscode-block-kit-snippets",
+  "displayName": "Slack Block Kit Snippets",
+  "version": "1.0.0",
+  "description": "Slack Block Kit snippets for VSCode",
+  "icon": "logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wilhelmklopp/vscode-block-kit-snippets.git"
+  },
+  "keywords": [
+    "vscode",
+    "slack",
+    "block-kit"
+  ],
+  "author": "Wilhelm Klopp",
+  "license": "MIT",
+  "categories": [
+		"Snippets"
+	],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "python",
+        "path": "./snippets.json"
+      }
+    ]
+  },
+  "engines": {
+		"vscode": "^1.28.0"
+  },
+  "scripts": {
+    "build": "node build.js"
+  }
+}

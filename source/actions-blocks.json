@@ -1,0 +1,250 @@
+[
+    {
+        "name": "Actions block all selects",
+        "body": {
+            "type": "actions",
+            "elements": [
+                {
+                    "type": "conversations_select",
+                    "placeholder": {
+                        "type": "plain_text",
+                        "text": "Select a conversation",
+                        "emoji": true
+                    }
+                },
+                {
+                    "type": "channels_select",
+                    "placeholder": {
+                        "type": "plain_text",
+                        "text": "Select a channel",
+                        "emoji": true
+                    }
+                },
+                {
+                    "type": "users_select",
+                    "placeholder": {
+                        "type": "plain_text",
+                        "text": "Select a user",
+                        "emoji": true
+                    }
+                },
+                {
+                    "type": "static_select",
+                    "placeholder": {
+                        "type": "plain_text",
+                        "text": "Select an item",
+                        "emoji": true
+                    },
+                    "options": [
+                        {
+                            "text": {
+                                "type": "plain_text",
+                                "text": "*this is plain_text text*",
+                                "emoji": true
+                            },
+                            "value": "value-0"
+                        },
+                        {
+                            "text": {
+                                "type": "plain_text",
+                                "text": "*this is plain_text text*",
+                                "emoji": true
+                            },
+                            "value": "value-1"
+                        },
+                        {
+                            "text": {
+                                "type": "plain_text",
+                                "text": "*this is plain_text text*",
+                                "emoji": true
+                            },
+                            "value": "value-2"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "name": "Actions block filtered conversations select",
+        "body": {
+            "type": "actions",
+            "elements": [
+                {
+                    "type": "conversations_select",
+                    "placeholder": {
+                        "type": "plain_text",
+                        "text": "Select private conversation",
+                        "emoji": true
+                    },
+                    "filter": {
+                        "include": [
+                            "private"
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "name": "Actions block selects with initial options",
+        "body": {
+            "type": "actions",
+            "elements": [
+                {
+                    "type": "conversations_select",
+                    "placeholder": {
+                        "type": "plain_text",
+                        "text": "Select a conversation",
+                        "emoji": true
+                    },
+                    "initial_conversation": "D123"
+                },
+                {
+                    "type": "users_select",
+                    "placeholder": {
+                        "type": "plain_text",
+                        "text": "Select a user",
+                        "emoji": true
+                    },
+                    "initial_user": "U123"
+                },
+                {
+                    "type": "channels_select",
+                    "placeholder": {
+                        "type": "plain_text",
+                        "text": "Select a channel",
+                        "emoji": true
+                    },
+                    "initial_channel": "C123"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Actions block buttons",
+        "body": {
+            "type": "actions",
+            "elements": [
+                {
+                    "type": "button",
+                    "text": {
+                        "type": "plain_text",
+                        "text": "Click Me",
+                        "emoji": true
+                    },
+                    "value": "click_me_123"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Actions block datepickers",
+        "body": {
+            "type": "actions",
+            "elements": [
+                {
+                    "type": "datepicker",
+                    "initial_date": "1990-04-28",
+                    "placeholder": {
+                        "type": "plain_text",
+                        "text": "Select a date",
+                        "emoji": true
+                    }
+                },
+                {
+                    "type": "datepicker",
+                    "initial_date": "1990-04-28",
+                    "placeholder": {
+                        "type": "plain_text",
+                        "text": "Select a date",
+                        "emoji": true
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "name": "Actions block checkboxes",
+        "body": {
+            "type": "actions",
+            "elements": [
+                {
+                    "type": "checkboxes",
+                    "options": [
+                        {
+                            "text": {
+                                "type": "mrkdwn",
+                                "text": "*this is mrkdwn text*"
+                            },
+                            "description": {
+                                "type": "mrkdwn",
+                                "text": "*this is mrkdwn text*"
+                            },
+                            "value": "value-0"
+                        },
+                        {
+                            "text": {
+                                "type": "mrkdwn",
+                                "text": "*this is mrkdwn text*"
+                            },
+                            "description": {
+                                "type": "mrkdwn",
+                                "text": "*this is mrkdwn text*"
+                            },
+                            "value": "value-1"
+                        },
+                        {
+                            "text": {
+                                "type": "mrkdwn",
+                                "text": "*this is mrkdwn text*"
+                            },
+                            "description": {
+                                "type": "mrkdwn",
+                                "text": "*this is mrkdwn text*"
+                            },
+                            "value": "value-2"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "name": "Actions block radio buttons",
+        "body": {
+            "type": "actions",
+            "elements": [
+                {
+                    "type": "radio_buttons",
+                    "options": [
+                        {
+                            "text": {
+                                "type": "plain_text",
+                                "text": "*this is plain_text text*",
+                                "emoji": true
+                            },
+                            "value": "value-0"
+                        },
+                        {
+                            "text": {
+                                "type": "plain_text",
+                                "text": "*this is plain_text text*",
+                                "emoji": true
+                            },
+                            "value": "value-1"
+                        },
+                        {
+                            "text": {
+                                "type": "plain_text",
+                                "text": "*this is plain_text text*",
+                                "emoji": true
+                            },
+                            "value": "value-2"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+]

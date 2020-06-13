@@ -1,0 +1,39 @@
+[
+    {
+        "name": "Modal surface",
+        "body": {
+            "type": "modal",
+            "callback_id": "modal_",
+            "title": {
+                "type": "plain_text",
+                "text": "My App",
+                "emoji": true
+            },
+            "submit": {
+                "type": "plain_text",
+                "text": "Submit",
+                "emoji": true
+            },
+            "close": {
+                "type": "plain_text",
+                "text": "Cancel",
+                "emoji": true
+            },
+            "private_metadata": "",
+            "blocks": [
+
+            ]
+        }
+    },
+    {
+        "name": "App Home surface",
+        "body": {
+            "type": "home",
+            "callback_id": "",
+            "private_metadata": "",
+            "blocks": [
+
+            ]
+        }
+    }
+]

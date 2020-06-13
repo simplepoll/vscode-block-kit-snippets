@@ -1,0 +1,181 @@
+[
+    {
+        "name": "Input block plain_text_input",
+        "body": {
+            "type": "input",
+            "element": {
+                "type": "plain_text_input",
+                "multiline": true
+            },
+            "label": {
+                "type": "plain_text",
+                "text": "Label",
+                "emoji": true
+            }
+        }
+    },
+    {
+        "name": "Input block multi_users_select",
+        "body": {
+            "type": "input",
+            "element": {
+                "type": "multi_users_select",
+                "placeholder": {
+                    "type": "plain_text",
+                    "text": "Select users",
+                    "emoji": true
+                }
+            },
+            "label": {
+                "type": "plain_text",
+                "text": "Label",
+                "emoji": true
+            }
+        }
+    },
+    {
+        "name": "Input block static_select",
+        "body": {
+            "type": "input",
+            "element": {
+                "type": "static_select",
+                "placeholder": {
+                    "type": "plain_text",
+                    "text": "Select an item",
+                    "emoji": true
+                },
+                "options": [
+                    {
+                        "text": {
+                            "type": "plain_text",
+                            "text": "*this is plain_text text*",
+                            "emoji": true
+                        },
+                        "value": "value-0"
+                    },
+                    {
+                        "text": {
+                            "type": "plain_text",
+                            "text": "*this is plain_text text*",
+                            "emoji": true
+                        },
+                        "value": "value-1"
+                    },
+                    {
+                        "text": {
+                            "type": "plain_text",
+                            "text": "*this is plain_text text*",
+                            "emoji": true
+                        },
+                        "value": "value-2"
+                    }
+                ]
+            },
+            "label": {
+                "type": "plain_text",
+                "text": "Label",
+                "emoji": true
+            }
+        }
+    },
+    {
+        "name": "Input block datepicker",
+        "body": {
+            "type": "input",
+            "element": {
+                "type": "datepicker",
+                "initial_date": "1990-04-28",
+                "placeholder": {
+                    "type": "plain_text",
+                    "text": "Select a date",
+                    "emoji": true
+                }
+            },
+            "label": {
+                "type": "plain_text",
+                "text": "Label",
+                "emoji": true
+            }
+        }
+    },
+    {
+        "name": "Input block checkboxes",
+        "body": {
+            "type": "input",
+            "element": {
+                "type": "checkboxes",
+                "options": [
+                    {
+                        "text": {
+                            "type": "plain_text",
+                            "text": "*this is plain_text text*",
+                            "emoji": true
+                        },
+                        "value": "value-0"
+                    },
+                    {
+                        "text": {
+                            "type": "plain_text",
+                            "text": "*this is plain_text text*",
+                            "emoji": true
+                        },
+                        "value": "value-1"
+                    },
+                    {
+                        "text": {
+                            "type": "plain_text",
+                            "text": "*this is plain_text text*",
+                            "emoji": true
+                        },
+                        "value": "value-2"
+                    }
+                ]
+            },
+            "label": {
+                "type": "plain_text",
+                "text": "Label",
+                "emoji": true
+            }
+        }
+    },
+    {
+        "name": "Input block radio_buttons",
+        "body": {
+            "type": "input",
+            "element": {
+                "type": "radio_buttons",
+                "options": [
+                    {
+                        "text": {
+                            "type": "plain_text",
+                            "text": "*this is plain_text text*",
+                            "emoji": true
+                        },
+                        "value": "value-0"
+                    },
+                    {
+                        "text": {
+                            "type": "plain_text",
+                            "text": "*this is plain_text text*",
+                            "emoji": true
+                        },
+                        "value": "value-1"
+                    },
+                    {
+                        "text": {
+                            "type": "plain_text",
+                            "text": "*this is plain_text text*",
+                            "emoji": true
+                        },
+                        "value": "value-2"
+                    }
+                ]
+            },
+            "label": {
+                "type": "plain_text",
+                "text": "Label",
+                "emoji": true
+            }
+        }
+    }
+]

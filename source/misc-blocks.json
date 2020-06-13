@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Divider block",
+        "body": {
+            "type": "divider"
+        }
+    },
+    {
+        "name": "Image block",
+        "body": {
+            "type": "image",
+            "title": {
+                "type": "plain_text",
+                "text": "I Need a Marg",
+                "emoji": true
+            },
+            "image_url": "https://assets3.thrillist.com/v1/image/1682388/size/tl-horizontal_main.jpg",
+            "alt_text": "marg"
+        }
+    }
+]

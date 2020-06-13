@@ -1,0 +1,320 @@
+[
+    {
+        "name": "Section block",
+        "body": {
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": "$TM_SELECTED_TEXT$0"
+            }
+        }
+    },
+    {
+        "name": "Section block with text fields",
+        "body": {
+            "type": "section",
+            "fields": [
+                {
+                    "type": "plain_text",
+                    "text": "*this is plain_text text*",
+                    "emoji": true
+                },
+                {
+                    "type": "plain_text",
+                    "text": "*this is plain_text text*",
+                    "emoji": true
+                },
+                {
+                    "type": "plain_text",
+                    "text": "*this is plain_text text*",
+                    "emoji": true
+                },
+                {
+                    "type": "plain_text",
+                    "text": "*this is plain_text text*",
+                    "emoji": true
+                },
+                {
+                    "type": "plain_text",
+                    "text": "*this is plain_text text*",
+                    "emoji": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "Section block users_select",
+        "body": {
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": "Test block with users select"
+            },
+            "accessory": {
+                "type": "users_select",
+                "placeholder": {
+                    "type": "plain_text",
+                    "text": "Select a user",
+                    "emoji": true
+                }
+            }
+        }
+    },
+    {
+        "name": "Section block static_select",
+        "body": {
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": "Pick an item from the dropdown list"
+            },
+            "accessory": {
+                "type": "static_select",
+                "placeholder": {
+                    "type": "plain_text",
+                    "text": "Select an item",
+                    "emoji": true
+                },
+                "options": [
+                    {
+                        "text": {
+                            "type": "plain_text",
+                            "text": "*this is plain_text text*",
+                            "emoji": true
+                        },
+                        "value": "value-0"
+                    },
+                    {
+                        "text": {
+                            "type": "plain_text",
+                            "text": "*this is plain_text text*",
+                            "emoji": true
+                        },
+                        "value": "value-1"
+                    },
+                    {
+                        "text": {
+                            "type": "plain_text",
+                            "text": "*this is plain_text text*",
+                            "emoji": true
+                        },
+                        "value": "value-2"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "name": "Section block multi_conversations_select",
+        "body": {
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": "Test block with multi conversations select"
+            },
+            "accessory": {
+                "type": "multi_conversations_select",
+                "placeholder": {
+                    "type": "plain_text",
+                    "text": "Select conversations",
+                    "emoji": true
+                }
+            }
+        }
+    },
+    {
+        "name": "Section block button",
+        "body": {
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": "This is a section block with a button."
+            },
+            "accessory": {
+                "type": "button",
+                "text": {
+                    "type": "plain_text",
+                    "text": "Click Me",
+                    "emoji": true
+                },
+                "value": "click_me_123"
+            }
+        }
+    },
+    {
+        "name": "Section block image",
+        "body": {
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": "This is a section block with an accessory image."
+            },
+            "accessory": {
+                "type": "image",
+                "image_url": "https://pbs.twimg.com/profile_images/625633822235693056/lNGUneLX_400x400.jpg",
+                "alt_text": "cute cat"
+            }
+        }
+    },
+    {
+        "name": "Section block overflow",
+        "body": {
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": "This is a section block with an overflow menu."
+            },
+            "accessory": {
+                "type": "overflow",
+                "options": [
+                    {
+                        "text": {
+                            "type": "plain_text",
+                            "text": "*this is plain_text text*",
+                            "emoji": true
+                        },
+                        "value": "value-0"
+                    },
+                    {
+                        "text": {
+                            "type": "plain_text",
+                            "text": "*this is plain_text text*",
+                            "emoji": true
+                        },
+                        "value": "value-1"
+                    },
+                    {
+                        "text": {
+                            "type": "plain_text",
+                            "text": "*this is plain_text text*",
+                            "emoji": true
+                        },
+                        "value": "value-2"
+                    },
+                    {
+                        "text": {
+                            "type": "plain_text",
+                            "text": "*this is plain_text text*",
+                            "emoji": true
+                        },
+                        "value": "value-3"
+                    },
+                    {
+                        "text": {
+                            "type": "plain_text",
+                            "text": "*this is plain_text text*",
+                            "emoji": true
+                        },
+                        "value": "value-4"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "name": "Section block datepicker",
+        "body": {
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": "Pick a date for the deadline."
+            },
+            "accessory": {
+                "type": "datepicker",
+                "initial_date": "1990-04-28",
+                "placeholder": {
+                    "type": "plain_text",
+                    "text": "Select a date",
+                    "emoji": true
+                }
+            }
+        }
+    },
+    {
+        "name": "Section block checkboxes",
+        "body": {
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": "This is a section block with checkboxes."
+            },
+            "accessory": {
+                "type": "checkboxes",
+                "options": [
+                    {
+                        "text": {
+                            "type": "mrkdwn",
+                            "text": "*this is mrkdwn text*"
+                        },
+                        "description": {
+                            "type": "mrkdwn",
+                            "text": "*this is mrkdwn text*"
+                        },
+                        "value": "value-0"
+                    },
+                    {
+                        "text": {
+                            "type": "mrkdwn",
+                            "text": "*this is mrkdwn text*"
+                        },
+                        "description": {
+                            "type": "mrkdwn",
+                            "text": "*this is mrkdwn text*"
+                        },
+                        "value": "value-1"
+                    },
+                    {
+                        "text": {
+                            "type": "mrkdwn",
+                            "text": "*this is mrkdwn text*"
+                        },
+                        "description": {
+                            "type": "mrkdwn",
+                            "text": "*this is mrkdwn text*"
+                        },
+                        "value": "value-2"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "name": "Section block radio_buttons",
+        "body": {
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": "Section block with radio buttons"
+            },
+            "accessory": {
+                "type": "radio_buttons",
+                "options": [
+                    {
+                        "text": {
+                            "type": "plain_text",
+                            "text": "*this is plain_text text*",
+                            "emoji": true
+                        },
+                        "value": "value-0"
+                    },
+                    {
+                        "text": {
+                            "type": "plain_text",
+                            "text": "*this is plain_text text*",
+                            "emoji": true
+                        },
+                        "value": "value-1"
+                    },
+                    {
+                        "text": {
+                            "type": "plain_text",
+                            "text": "*this is plain_text text*",
+                            "emoji": true
+                        },
+                        "value": "value-2"
+                    }
+                ]
+            }
+        }
+    }
+]

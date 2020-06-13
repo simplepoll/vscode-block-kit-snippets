@@ -1,0 +1,54 @@
+{
+    "snippets": [
+        {
+            "name": "Section block",
+            "body": {
+                "type": "section",
+                "text": {
+                    "type": "mrkdwn",
+                    "text": "$TM_SELECTED_TEXT$0"
+                }
+            }
+        },
+        {
+            "name": "Input with radio buttons",
+            "body": {
+                "type": "input",
+                "element": {
+                    "type": "radio_buttons",
+                    "options": [
+                        {
+                            "text": {
+                                "type": "plain_text",
+                                "text": "*this is plain_text text*",
+                                "emoji": true
+                            },
+                            "value": "value-0"
+                        },
+                        {
+                            "text": {
+                                "type": "plain_text",
+                                "text": "*this is plain_text text*",
+                                "emoji": true
+                            },
+                            "value": "value-1"
+                        },
+                        {
+                            "text": {
+                                "type": "plain_text",
+                                "text": "*this is plain_text text*",
+                                "emoji": true
+                            },
+                            "value": "value-2"
+                        }
+                    ]
+                },
+                "label": {
+                    "type": "plain_text",
+                    "text": "Label",
+                    "emoji": true
+                }
+            }
+        }
+    ]
+}

@@ -1,12 +1,13 @@
 {
   "name": "vscode-block-kit-snippets",
   "displayName": "Slack Block Kit Snippets",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Slack Block Kit snippets for VSCode",
+  "publisher": "simplepoll",
   "icon": "logo.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wilhelmklopp/vscode-block-kit-snippets.git"
+    "url": "https://github.com/simplepoll/vscode-block-kit-snippets.git"
   },
   "keywords": [
     "vscode",

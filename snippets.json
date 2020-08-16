@@ -512,6 +512,19 @@
             "}"
         ]
     },
+    "Header block": {
+        "prefix": "header block",
+        "body": [
+            "{",
+            "\t\"type\": \"header\",",
+            "\t\"text\": {",
+            "\t\t\"type\": \"plain_text\",",
+            "\t\t\"text\": \"This is a header block\",",
+            "\t\t\"emoji\": true",
+            "\t}",
+            "}"
+        ]
+    },
     "Section block": {
         "prefix": "section block",
         "body": [
